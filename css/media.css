@@ -1,0 +1,543 @@
+/* // Extra-large devices (desktops, less than 19800px) */
+@media (min-width: 1400px) {
+    /* Not needed bro  */
+}
+
+/* // large devices (desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px){
+    /* Banner  */
+    .banner_texts a{
+        font-size: 24px;
+        margin-right: 20px;
+    }
+    /* Banner  */
+
+    /* Work  */
+    .work_buttons button {
+        padding: 10px 15px;
+        margin: 0 10px;
+    }
+    .hovered_icon {
+        top: 30%;
+        font-size: 20px;
+    }
+    .hovered_text h6 {
+        font-size: 14px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        line-height: 18px;
+    }
+    .hovered_text p {
+        font-size: 13px;
+        font-style: italic;
+    }   
+    /* Work  */
+
+    /* Team  */
+    .member_img_hovered_overlay h6 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .member_img_hovered_overlay p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .member_social_links {
+       padding-top: 20px !important;
+    }
+    /* Team  */
+
+    /* Counter Up  */
+    .texts_of_counterup p {
+        line-height: 17px;
+    }
+    /* Counter Up  */
+
+    /* Discussion  */
+    .discussion_heading h3 {
+        line-height: 21px;
+    }
+    /* Discussion  */
+
+    /* Common Heading  */
+    .common_heading_icon::before {
+        left: -30px;
+    }
+    .common_heading_icon::after {
+        right: -30px;
+    }
+    /* Common Heading  */
+}
+
+/* // mid-large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* Banner  */
+    .banner_texts a{
+        font-size: 24px;
+        margin-right: 20px;
+    }
+    /* Banner  */
+
+    /* Work  */
+    .work_buttons button {
+        padding: 10px 15px;
+        margin: 0 10px;
+    }
+    .hovered_icon {
+        top: 30%;
+        font-size: 20px;
+    }
+    .hovered_text h6 {
+        font-size: 14px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        line-height: 18px;
+    }
+    .hovered_text p {
+        font-size: 13px;
+        font-style: italic;
+    }   
+    /* Work  */
+
+    /* Team  */
+    .member_img_hovered_overlay h6 {
+        font-size: 15px;
+        line-height: 16px;
+    }
+    .member_img_hovered_overlay p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .member_social_links {
+        padding-top: 0 !important;
+    }
+    /* Team  */
+
+    /* Counter Up  */
+    .texts_of_counterup p {
+        line-height: 17px;
+    }
+    /* Counter Up  */
+
+    /* Discussion  */
+    .discussion_heading h3 {
+        line-height: 21px;
+    }
+    /* Discussion  */
+
+    /* Common Heading  */
+    .common_heading_icon::before {
+        left: -30px;
+    }
+    .common_heading_icon::after {
+        right: -30px;
+    }
+    /* Common Heading  */
+}
+
+/* // medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Menu  */
+    .navbar-toggler {
+        color: #fff;
+        font-size: 28px;
+    }
+    .nav-item {
+        text-align: center;
+    }
+    .nav-link{
+        font-size: 18px;
+    }
+    .navbar-brand{
+        font-size: 26px;
+    }
+    .nav-link::before {
+        top: 100%;
+        transition: .6s;
+    }
+    /* Menu  */
+
+    /* Banner  */
+    .banner_texts a{
+        margin-bottom: 40px;
+        font-size: 26px;
+        margin-right: 20px;
+    }
+    /* Banner  */
+
+    /* Features  */
+    .feature_content{
+        padding-bottom: 50px;
+    }
+    .feature_cont_texts p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    /* Features  */
+
+    /* About  */
+    .about_item_icon {
+        font-size: 38px;
+    }
+    .about_item_texts h5 {
+        font-size: 20px;
+    }
+    .about_item_texts p {
+        font-size: 16px;
+    }
+    /* About  */
+
+    /* Work  */
+    .hovered_icon {
+        top: 30%;
+        font-size: 20px;
+    }
+    .hovered_text h6 {
+        font-size: 12px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .hovered_text p {
+        font-size: 12px;
+        font-style: italic;
+    }
+    /* Work  */
+
+    /* Team  */
+    .rp_vthree_a{
+        width: 50% !important;
+        margin-bottom: 50px;
+    }
+    .member_img_hovered_overlay h6 {
+        margin-top: 35px;
+    }
+    .member_social_links a {
+        margin: 0 10px;
+    }
+    /* Team  */
+
+    /* FunFect  */
+    .counter_up{
+        margin-bottom: 40px;
+    }
+    .rp_vthree_b{
+        width: 50% !important;
+    }
+    /* FunFect  */
+
+    /* Discussion  */
+    .discussion_heading h3 {
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    .user_input h4 {
+        padding-top: 30px;
+    }
+    .submission_button{
+        text-align: center !important;
+    }
+    .social_links_of_discussion_sec{
+        text-align: center !important;
+    }
+    .social_links_of_discussion_sec a{
+        font-size: 28px;
+    }
+    #discuss iframe{
+        height: 500px;
+    }
+    /* Discussion  */
+
+    /* Footer  */
+    .exploring_links {
+        padding-right: 100px;
+    }
+    /* Footer  */
+
+    /* Common Heading  */
+    .common_heading_icon::before {
+        left: 180px;
+    }
+    .common_heading_icon::after {
+        right: 180px;
+    }
+    /* Common Heading  */
+}
+
+/* small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* Menu  */
+    .navbar-toggler{
+        color: #fff;
+        font-size: 22px;
+    }
+    .nav-item {
+        text-align: center;
+    }
+    .nav-link{
+        font-size: 18px;
+    }
+    .navbar-brand{
+        font-size: 26px;
+    }
+    .nav-link::before {
+        top: 100%;
+        transition: .6s;
+    }
+    /* Menu  */
+
+    /* Banner  */
+    .banner_texts h2 {
+        line-height: 45px;
+    }
+    .banner_texts h3 {
+        font-size: 21px;
+    }
+    .banner_texts a {
+        color: #888;
+        padding-bottom: 40px;
+        font-size: 25px;
+        margin-right: 20px;
+    }
+    /* Banner  */
+
+    /* Features  */
+    .feature_content {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 60px;
+    }
+    #features {
+        padding-bottom: 80px;
+    }
+    /* Features  */
+
+    /* About  */
+    .about_heading h4 {
+        padding-bottom: 30px;
+    }
+    .about_img{
+        margin-top: 40px;
+    }
+    /* About  */
+
+    /* Work  */
+    .work_heading_title h5 {
+        font-size: 20px;
+        padding-bottom: 70px;
+        line-height: 28px;
+        padding-bottom: 50px;
+    }
+    .work_buttons {
+        padding-bottom: 60px;
+    }
+    .sample_imgs {
+        width: 50%;
+    }
+    .hovered_icon {
+        font-size: 18px;
+    }
+    .hovered_text h6 {
+        font-size: 16px;
+        padding-bottom: 10px;
+        padding-top: 28px;
+    }
+    .hovered_text p {
+        font-size: 12px;
+    }
+    .about_items {
+        margin-top: 50px;
+    }
+    /* Work  */
+
+    /* Member Details  */
+    .member_details{
+        margin-bottom: 40px;
+    }
+    .member_img_hovered_overlay h6 {
+        font-size: 21px;
+        line-height: 29px;
+        margin-top: 115px;
+    }
+    .member_img_hovered_overlay p {
+        font-size: 15px;
+        line-height: 21px;
+        padding: 0 75px;
+        margin-top: 20px;
+    }
+    /* Member Details  */
+
+    /* FunFect */
+    .counter_up{
+        margin-bottom: 50px;
+    }
+    /* FunFect */
+
+    /* Discussion  */
+    .discussion_heading h3 {
+        padding-bottom: 60px;
+        line-height: 24px;
+    }
+    .theme_text_of_discussion p {
+        margin-bottom: 30px;
+    }
+    .text-end {
+        text-align: center !important;
+    }
+    #discuss iframe {
+        padding-top: 30px;
+    }
+    /* Discussion  */
+
+    /* Common Heading Design */
+    .common_heading_icon::before {
+        left: 120px;
+    }
+    .common_heading_icon::after {
+        right: 120px;
+    }
+    /* Common Heading Design */
+}
+
+
+
+ /* Extra-small (portrait phones, less than 576px) */
+ @media (min-width: 320px) and (max-width: 575.98px) {
+
+    /* Menu  */
+    .navbar-toggler{
+        color: #fff;
+        font-size: 22px;
+    }
+    .nav-item {
+        text-align: center;
+    }
+    .nav-link::before {
+        top: 100%;
+        transition: .6s;
+    }
+    /* Menu  */
+
+    /* Banner  */
+    .banner_texts{
+        text-align: center;
+    }
+    .banner_texts h1 {
+        font-size: 40px;
+        padding-top: 0px !important;
+    }
+    .banner_texts h2 {
+        font-size: 40px;
+        line-height: 35px;
+        padding-top: 10px;
+        padding-bottom: 23px;
+    }
+    .banner_texts a {
+        color: #888;
+        padding-bottom: 40px;
+        font-size: 22px;
+    }
+    .banner_texts h3 {
+        padding-bottom: 15px;
+    }
+
+    .banner_phone_img{
+        margin-top: 40px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .banner_phone_img img{
+       width: 80% !important;
+    }
+    /* Banner  */
+
+    /* Features  */
+    .feature_content {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 60px;
+    }
+    #features {
+        padding-bottom: 80px;
+    }
+    .feature_cont_icon {
+        width: 11%;
+    }
+    /* Features  */
+
+    /* About  */
+    .about_img{
+        margin-top: 30px;
+    }
+    /* About  */
+
+    /* Work  */
+    .hovered_icon{
+        font-size: 21px;
+    }
+    .hovered_text h6{
+        font-size: 16px;
+        margin-top: 30px;
+        line-height: 18px;
+    }
+    .hovered_text p{
+        font-size: 14px;
+        font-style: italic;
+    }
+    .work_heading_title h5 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .work_buttons {
+        padding-bottom: 60px;
+    }
+    .sample_imgs {
+        width: 100%;
+    }
+    .work_buttons {
+        display: inline-block;
+    }
+    /* Work  */
+
+    /* Team Part */
+    .team_heading_title h5 {
+        font-size: 20px;
+    }
+    .member_details{
+        margin-bottom: 30px;
+    }
+    /* Team Part */
+
+    /* FunFect */
+    .counter_up{
+        margin-bottom: 40px;
+    }
+    /* FunFect */
+
+    /* Discussion */
+    .discussion_heading h3 {
+        line-height: 22px;
+    }
+    .theme_text_of_discussion{
+        margin-bottom: 30px;
+    }
+    .text-end {
+        text-align: center !important;
+    }
+    #discuss iframe {
+        padding-top: 30px;
+    }
+    .submission_button a{
+        padding: 10px 15px;
+        background: #fefce9;
+        border-radius: 5px;
+        transition: .5s;
+    }
+    .submission_button a:hover{
+        box-shadow: 2px 2px 10px #888;
+    }
+    
+    /* Discussion */
+ }
